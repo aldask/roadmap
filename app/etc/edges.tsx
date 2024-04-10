@@ -1,10 +1,6 @@
-interface Edge {
-  id: string;
-  source: string;
-  target: string;
-}
+import { Edge } from "reactflow";
 
-export const edges: Edge[] = [
+export const initialEdges: Edge[] = [
   { id: "main0", source: "front-end-title", target: "learn-the-basics-title" },
   { id: "main1", source: "learn-the-basics-title", target: "main-artery0" },
   { id: "main2", source: "main-artery0", target: "getting-deeper-title" },
@@ -24,6 +20,8 @@ export const edges: Edge[] = [
   { id: "point8", source: "choose-framework0-title", target: "foundation" },
 
   { id: "point9", source: "main-artery2", target: "css1" },
+  { id: "point9.1", source: "main-artery2", target: "svg" },
+  { id: "point9.2", source: "main-artery2", target: "js1" },
   { id: "point10", source: "css1", target: "methodologies" },
   { id: "point11", source: "methodologies", target: "oocss" },
   { id: "point12", source: "css1", target: "dive-deep-css3" },
