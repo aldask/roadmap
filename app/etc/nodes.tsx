@@ -31,7 +31,6 @@ export const initialNodes: Node[] = [
     id: "main-artery0",
     data: {
       label: "○",
-      message: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       handles: [
         { position: "top", type: "target" },
         { position: "bottom", type: "source" },
@@ -59,7 +58,6 @@ export const initialNodes: Node[] = [
     id: "main-artery1",
     data: {
       label: "○",
-      message: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       handles: [
         { position: "top", type: "target" },
         { position: "bottom", type: "source" },
@@ -87,7 +85,6 @@ export const initialNodes: Node[] = [
     id: "main-artery3",
     data: {
       label: "☆",
-      message: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       handles: [{ position: "top", type: "target" }],
     },
     position: { x: 70, y: 2100 },
@@ -121,7 +118,6 @@ export const initialNodes: Node[] = [
     id: "js",
     data: {
       label: "JavaScript",
-      message: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       handles: [{ position: "right", type: "target" }],
     },
     position: { x: -70, y: 500 },
@@ -274,7 +270,7 @@ export const initialNodes: Node[] = [
       message: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       handles: [
         { position: "right", type: "target" },
-        { position: "bottom", type: "source" },
+        { position: "left", type: "source" },
       ],
     },
     position: { x: -100, y: 840 },
@@ -321,7 +317,7 @@ export const initialNodes: Node[] = [
       message: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       handles: [
         { position: "right", type: "target" },
-        { position: "bottom", type: "source" },
+        { position: "left", type: "source" },
       ],
     },
     position: { x: -350, y: 820 },
